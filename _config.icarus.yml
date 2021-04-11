@@ -103,10 +103,10 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        关于我: /about
+        简历: /简历
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        Visit my GitHub:
             icon: fab fa-github
             url: 'https://github.com/GH-H'
 # Page footer configurations
@@ -233,19 +233,26 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/GH-H'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: 'https://twitter.com'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     # Table of contents widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         GitHub: 'https://github.com/GH-H'
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -257,14 +264,7 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar

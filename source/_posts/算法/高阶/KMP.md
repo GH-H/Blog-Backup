@@ -5,14 +5,14 @@ thumbnail: /thumbnails/Algo.jpg
 toc: true
 categories:
 	- 算法 
-	- KMP
+	- 高阶
 tags: 
 	- 算法
 ---
 ## 简介
 {% asset_img 1.png This is an main image %}
 kmp算法也称为字符串查找算法，可以确认当前字符串中是否包含目标字符串。 当出现字符串不匹配时，可以记录一部分之前已经匹配的文本内容，利用这些信息避免从头再去做匹配。
-
+<!--more-->
 ## 暴力解法
 在深入了解KMP之前我们需要了解暴力解法。话不多说先上图！
 
